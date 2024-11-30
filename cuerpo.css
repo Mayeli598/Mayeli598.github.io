@@ -1,0 +1,229 @@
+.cuerpo_principal {
+    text-transform:none;
+    line-height: 30px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.titulos{
+    color:#00822b;
+    font-size: 40px;
+}
+.viñeta{
+    list-style-type:square;
+}
+.hard_teo_img{
+    align-items: center;    
+    display:flex;
+}
+.hardware{
+    width: 25%;
+    margin-left: 5%;
+    margin-right: 60px;
+}
+.viñeta li{
+    font-size: 26px;
+}
+.soft_teo_img{
+    align-items: center;    
+    display: flex;
+    line-height: 30px;
+}
+.software{
+    width: 25%;
+    margin-left: 5%;
+    margin-right: 60px;
+}
+.img_teoria{
+    display: flex;
+}
+.teoría{
+    padding: 0%;
+}
+.img_teoria_2{
+    display: flex;
+}
+.contaminación_1{
+    width: 620px;
+    height: 350px;
+}
+.contaminación_2{
+    width: 620px;
+    height: 350px;
+}
+.contaminación_3{
+    width: 450px;
+    height: 350px;
+}
+.contaminación_4{
+    width: 620px;
+    height: 350px;
+    margin-right: 100px;
+}
+.txt-calent-glob{
+    width: 1100px;
+    height: 350px;
+    margin-right: 50px;
+}
+.txt-deforest{
+    width: 1100px;
+    height: 350px;
+    margin-right: 50px;
+}
+.contaminación_2_1{
+    width: 620px;
+    height: 350px;
+}
+.contaminación_2_2{
+    width: 620px;
+    height: 350px;
+}
+.contaminación_2_3{
+    width: 450px;
+    height: 350px;
+}
+.contaminación_2_4{
+    width: 620px;
+    height: 350px;
+    margin-right: 100px;
+}
+.txt-reciclaje{
+    width: 1100px;
+    height: 350px;
+    margin-right: 50px;
+}
+.txt-monitoreo{
+    width: 1100px;
+    height: 350px;
+    margin-right: 50px;
+}
+.contaminación_3_1{
+    width: 620px;
+    height: 350px;
+}
+.contaminación_3_2{
+    width: 620px;
+    height: 350px;
+}
+.contaminación_3_3{
+    width: 450px;
+    height: 350px;
+}
+.contaminación_3_4{
+    width: 620px;
+    height: 350px;
+    margin-right: 100px;
+}
+.txt-reciclaje{
+    width: 1100px;
+    height: 350px;
+    margin-right: 50px;
+}
+.txt-monitoreo{
+    width: 1100px;
+    height: 350px;
+    margin-right: 50px;
+}
+
+@media(max-width:768px){
+    .cuerpo_principal {
+        text-transform:none;
+        line-height: 30px;
+        text-align: justify;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .titulos{
+        color:#00822b;
+        font-size: 40px;
+    }
+    .viñeta{
+        margin-left: 10px;
+    }
+    .hard_teo_img{
+        display:block;
+    }
+    .viñeta li{
+        font-size: 26px;
+    }
+    .hardware{
+        display:block;
+        margin:auto; 
+        width: 300px;
+    }
+    .software{
+        display:block;
+        margin:auto; 
+        width: 300px;
+    }
+    .img_teoria{
+        display: flex;
+    }
+    .teoría{
+        padding: 0%;
+    }
+    .img_teoria_2{
+        display: flex;
+    }
+    .contaminación_1{
+        width: 320px;
+        height: 250px;
+    }
+    .contaminación_2{
+        width: 320px;
+        height: 250px;
+    }
+    .contaminación_3{
+        width: 320px;
+        height: 250px;
+    }
+    .contaminación_4{
+        width: 320px;
+        height: 250px;
+    }
+    .txt-calent-glob{
+        padding: 0%;
+        width: 320px;
+        height: 790px;
+        margin-right: 50px;
+    }
+    .txt-deforest{
+        width: 320px;
+        height: 570px;
+        margin-right: 50px;
+    }
+    .contaminación_2_1{
+        width: 320px;
+        height: 250px;
+    }
+    .contaminación_2_2{
+        width: 320px;
+        height: 250px;
+    }
+    .contaminación_2_3{
+        width: 320px;
+        height: 250px;
+    }
+    .contaminación_2_4{
+        width: 320px;
+        height: 250px;
+    }
+    .txt-reciclaje{
+        width: 320px;
+        height: 500px;
+        margin-right: 50px;
+    }
+    .txt-monitoreo{
+        width: 320px;
+        height: 650px;
+        margin-right: 50px;
+    }
+    .contaminación_3_1{
+        width: 320px;
+        height: 250px;
+    }
+    .contaminación_3_2{
+        width: 320px;
+        height: 250px;
+    }
+}
